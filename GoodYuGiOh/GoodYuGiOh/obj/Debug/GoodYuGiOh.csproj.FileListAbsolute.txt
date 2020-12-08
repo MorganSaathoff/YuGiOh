@@ -1,0 +1,7 @@
+C:\Users\DSU Student\source\repos\GoodYuGiOh\GoodYuGiOh\bin\Debug\GoodYuGiOh.exe.config
+C:\Users\DSU Student\source\repos\GoodYuGiOh\GoodYuGiOh\bin\Debug\GoodYuGiOh.exe
+C:\Users\DSU Student\source\repos\GoodYuGiOh\GoodYuGiOh\bin\Debug\GoodYuGiOh.pdb
+C:\Users\DSU Student\source\repos\GoodYuGiOh\GoodYuGiOh\obj\Debug\GoodYuGiOh.csprojAssemblyReference.cache
+C:\Users\DSU Student\source\repos\GoodYuGiOh\GoodYuGiOh\obj\Debug\GoodYuGiOh.csproj.CoreCompileInputs.cache
+C:\Users\DSU Student\source\repos\GoodYuGiOh\GoodYuGiOh\obj\Debug\GoodYuGiOh.exe
+C:\Users\DSU Student\source\repos\GoodYuGiOh\GoodYuGiOh\obj\Debug\GoodYuGiOh.pdb
