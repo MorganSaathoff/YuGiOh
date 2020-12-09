@@ -156,10 +156,14 @@ namespace YuGiOh
 			}
 		}
 
-		//public override void PrintInfo()
-		//{
-		//	throw new NotImplementedException();
-		//}
+		public override void PrintInfo()
+		{
+			Console.WriteLine("Owner: " + this.Owner);
+			Console.WriteLine("Card: " + this.Name);
+			Console.WriteLine("Spell Type: " + this.TrapType);
+			Console.WriteLine("Trigger: " + this.Trigger);
+			Console.WriteLine("Effect: " + this.Effect);
+		}
 
 	}
 }

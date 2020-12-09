@@ -37,14 +37,7 @@ namespace YuGiOh
 		protected bool Spell;
 		protected bool Trap;
 		
-		public string InvalidReason = " ";
 		public bool Valid = true; 
-		public string mon1 = "Monster";
-		public string mon2 = "monster";
-		public string spell1 = "Spell";
-		public string spell2 = "spell";
-		public string trap1 = "Trap";
-		public string trap2 = "trap";
 
 		public string DefaultOwner = "Unowned";
 		public string DefaultName = "Unknown";
@@ -95,19 +88,19 @@ namespace YuGiOh
 
 		public void ValidateCardType(string type)
 		{
-			if (type == mon1 || type == mon2)
+			if (type == "monster" || type == "Monster")
 			{
 				Monster = true;
 				Spell = false;
 				Trap = false;
 			}
-			else if (type == spell1 || type == spell2)
+			else if (type == "spell" || type == "Spell")
 			{
 				Monster = false;
 				Spell = true;
 				Trap = false;
 			}
-			else if (type == trap1 || type == trap2)
+			else if (type == "trap" || type == "Trap")
 			{
 				Monster = false;
 				Spell = false;

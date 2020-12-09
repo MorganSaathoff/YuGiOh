@@ -18,10 +18,9 @@ namespace YuGiOh
 			get { return _name; }
 			set { _name = value; }
 		}
-
-		public List<string> Deck = new List<string>();
-
 		public string SignatureCard { get; set; }
+		
+		public List<string> Deck = new List<string>();
 
 		public bool valid = false;
 

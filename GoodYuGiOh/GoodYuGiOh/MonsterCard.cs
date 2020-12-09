@@ -85,16 +85,7 @@ namespace YuGiOh
 			this._dp = DefaultDP;
 		}
 
-		public override void PrintInfo()
-        {
-			Console.WriteLine("Owner: " + this.Owner);
-			Console.WriteLine("Card: " + this.Name);
-			Console.WriteLine("Attribute: " + this.Attribute);
-			Console.WriteLine("Level: " + this.Level);
-			Console.WriteLine("Attack Points: " + this.AttackPoints);
-			Console.WriteLine("Defense Points: " + this.DefensePoints);
-		}
-
+		
 		public void ValidateAttribute(string attribute)
 		{
 			if (attribute == "Dark" || attribute == "dark")
@@ -218,5 +209,16 @@ namespace YuGiOh
 				this._attribute = attribute + "...is an INVALID ATTRIBUTE (valid attributes: dark, divine, earth, fie, light, water, or wind) and cannot be added to decks";
 			}
 		}
+		
+		public override void PrintInfo()
+        {
+			Console.WriteLine("Owner: " + this.Owner);
+			Console.WriteLine("Card: " + this.Name);
+			Console.WriteLine("Attribute: " + this.Attribute);
+			Console.WriteLine("Level: " + this.Level);
+			Console.WriteLine("Attack Points: " + this.AttackPoints);
+			Console.WriteLine("Defense Points: " + this.DefensePoints);
+		}
+
 	}
 }
